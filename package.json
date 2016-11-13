@@ -1,6 +1,6 @@
 {
   "name": "image-prefixr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple image pre-fixer if your project requires you to rename images. Run this to rename all your images instead of doing this in image editing software like photoshop.",
   "main": "prefix.js",
   "scripts": {
@@ -13,30 +13,10 @@
   "devDependencies": {
     "babel": "^6.5.2"
   },
-  "_id": "image-prefixr@1.0.1",
-  "_shasum": "fac203457c7cdfda5e409c363d1cbffa6f58c22a",
-  "_from": "image-prefixr@*",
-  "_npmVersion": "3.5.3",
-  "_nodeVersion": "5.5.0",
-  "_npmUser": {
-    "name": "akopcz2",
-    "email": "adrian@digitallofts.com"
-  },
-  "dist": {
-    "shasum": "fac203457c7cdfda5e409c363d1cbffa6f58c22a",
-    "tarball": "https://registry.npmjs.org/image-prefixr/-/image-prefixr-1.0.1.tgz"
-  },
   "maintainers": [
     {
       "name": "akopcz2",
       "email": "adrian@digitallofts.com"
     }
   ],
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/image-prefixr-1.0.1.tgz_1478901138442_0.4049872860778123"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/image-prefixr/-/image-prefixr-1.0.1.tgz",
-  "readme": "ERROR: No README data found!"
 }

@@ -3,7 +3,7 @@ var imagesFolder = './images';
 var imageDirectory = '/images/';
 
 //image name prefixer
-var prefix = 'projectName-';
+var prefix = 'murky-';
 
 //Gets initial path
 fs.realpath(__dirname, function(err, path){
