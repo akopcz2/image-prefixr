@@ -1,4 +1,4 @@
-#Simple image pre-fixer if your project requires you to rename images.
+#Simple image pre-fixer if your project requires you to prefix your images.
 
 >Run this to rename all your images instead of doing this in image editing software like photoshop.
 
@@ -7,13 +7,15 @@
 
 >Change the following vars to match your file system and prefix
 
-```javascript
-var imagesFolder = './images';
-
-var imageDirectory = '/images/';
-
-//image name prefixer
-var prefix = 'projectName-';
+You can either define your own prefix
 ```
-
-> run node prefix.js to rename images
+var prefix = 'your prefix'
+```
+ or if you have some sort of build deployment json, you can define the path the the file.
+```var = deploymentFile
+```
+after defining your variables, run
+```
+node prefix.js
+```
+to run the prefixr.
