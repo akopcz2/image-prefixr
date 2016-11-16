@@ -17,14 +17,15 @@ fs.realpath(__dirname, function(err, path){
 			//prefix files
 			var newfile = fileLocation + imageDirectory + prefix + file;
 			file = fileLocation  + imageDirectory + file;
+			newfileNoUnderScore = newfile.replace(/_/g, '-');
+
 			if(file.includes(prefix)){
-				newfile = file;
+				newfileNoUnderScore = file;
 			}
 			//renamefile
-			fs.rename(file, newfile, function(err){
+			fs.rename(file, newfileNoUnderScore, function(err){
 				if (err) throw err;
-				var hideMe = file.split('/');
-				console.log('Renamed file', hideMe[7]);
+				console.log('Renamed file', file);
 			});
 		});
 	});
