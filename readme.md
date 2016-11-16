@@ -1,5 +1,7 @@
 ###Simple image pre-fixer if your project requires you to prefix your images.
 
+![](http://g.recordit.co/rEMFddB0tQ.gif)
+
 >Run this to rename all your images instead of doing this in image editing software like photoshop.
 
 >npm install

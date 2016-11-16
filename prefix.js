@@ -23,7 +23,8 @@ fs.realpath(__dirname, function(err, path){
 			//renamefile
 			fs.rename(file, newfile, function(err){
 				if (err) throw err;
-				console.log('Renamed file', file);
+				var hideMe = file.split('/');
+				console.log('Renamed file', hideMe[7]);
 			});
 		});
 	});
