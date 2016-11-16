@@ -28,5 +28,9 @@ node prefix.js
 ```
 to run the prefixr.
 
+Next steps
+> convert into gulp plugin to port into gulp build
+Contributors Welcome!
+
 ### License
 Copyright (c) 2016 Adrian Kopczewski MIT
