@@ -1,0 +1,24 @@
+{
+  "name": "project-name",
+  "environments" : [{
+    "type": "env/dev",
+    "emailList": [],
+    "portNumber": 3078,
+    "subdomainName":false
+  },
+  {
+    "type": "env/qa",
+    "emailList": [],
+    "portNumber": 3079,
+    "subdomainName":false
+  },
+  {
+    "type": "env/uat",
+    "emailList": [],
+    "portNumber": 3080,
+    "subdomainName":false
+  }],
+  "browserSync": {
+    "portNumber": 3079
+  }
+}

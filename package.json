@@ -1,16 +1,67 @@
 {
-  "name": "image-prefixr",
-  "version": "1.0.8",
-  "description": "",
-  "main": "prefix.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "image-prefixr",
+        "scope": null,
+        "escapedName": "image-prefixr",
+        "name": "image-prefixr",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/adriankopczewski/testr"
+    ]
+  ],
+  "_from": "image-prefixr@latest",
+  "_id": "image-prefixr@1.0.9",
+  "_inCache": true,
+  "_location": "/image-prefixr",
+  "_nodeVersion": "5.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/image-prefixr-1.0.9.tgz_1479249836143_0.03843165491707623"
   },
-  "author": "Adrian Kopczewski",
-  "license": "MIT",
+  "_npmUser": {
+    "name": "akopcz2",
+    "email": "adrian@digitallofts.com"
+  },
+  "_npmVersion": "3.5.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "image-prefixr",
+    "scope": null,
+    "escapedName": "image-prefixr",
+    "name": "image-prefixr",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/image-prefixr/-/image-prefixr-1.0.9.tgz",
+  "_shasum": "49c634c30b2963a1341df0c36b3863f7d5d6eb09",
+  "_shrinkwrap": null,
+  "_spec": "image-prefixr",
+  "_where": "/Users/adriankopczewski/testr",
+  "author": {
+    "name": "Adrian Kopczewski"
+  },
+  "bugs": {
+    "url": "https://github.com/akopcz2/image-prefixr/issues"
+  },
+  "dependencies": {},
+  "description": "Simple image pre-fixer if your project requires you to rename images. Run this to rename all your images instead of doing this in image editing software like photoshop.",
   "devDependencies": {
     "babel": "^6.5.2"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "49c634c30b2963a1341df0c36b3863f7d5d6eb09",
+    "tarball": "https://registry.npmjs.org/image-prefixr/-/image-prefixr-1.0.9.tgz"
+  },
+  "homepage": "https://github.com/akopcz2/image-prefixr#readme",
   "keywords": [
     "build tools",
     "babel",
@@ -18,6 +69,24 @@
     "command",
     "javascript",
     "node"
-  ]
+  ],
+  "license": "MIT",
+  "main": "prefix.js",
+  "maintainers": [
+    {
+      "name": "akopcz2",
+      "email": "adrian@digitallofts.com"
+    }
+  ],
+  "name": "image-prefixr",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akopcz2/image-prefixr.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.9"
 }
-

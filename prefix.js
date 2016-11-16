@@ -1,5 +1,6 @@
 var fs = require("fs");
 var imagesFolder = './public/static/images/';
+var imageDirectory = '/public/static/images/';
 
 //image name prefixer
 var deploymentFile = JSON.parse(fs.readFileSync('./deployment.json', 'utf8'));
@@ -14,8 +15,8 @@ fs.realpath(__dirname, function(err, path){
 	fs.readdir(imagesFolder, (err, files) => {
 		files.forEach(file => {
 			//prefix files
-			var newfile = fileLocation + imagesFolder + prefix + file;
-			file = fileLocation  + imagesFolder + file;
+			var newfile = fileLocation + imageDirectory + prefix + file;
+			file = fileLocation  + imageDirectory + file;
 			if(file.includes(prefix)){
 				newfile = file;
 			}
