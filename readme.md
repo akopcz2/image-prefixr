@@ -8,14 +8,15 @@
 >Change the following vars to match your file system and prefix
 
 You can either define your own prefix
-```
+```javascript
 var prefix = 'your prefix'
 ```
  or if you have some sort of build deployment json, you can define the path the the file.
-```var = deploymentFile
+```javascript
+var = deploymentFile
 ```
 after defining your variables, run
-```
+```javascript
 node prefix.js
 ```
 to run the prefixr.
