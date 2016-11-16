@@ -7,6 +7,11 @@
 
 >Change the following vars to match your file system and prefix
 
+```javascript
+var imagesFolder = 'path to your images Folder'
+var imagesDirectory = 'path to images directory'
+```
+
 You can either define your own prefix
 ```javascript
 var prefix = 'your prefix'
